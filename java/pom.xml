@@ -8,5 +8,9 @@
   <artifactId>diff-match-patch</artifactId>
   <version>1.0-SNAPSHOT</version>
 
-
+  <!-- 
+  Default Maven compiler plugin is set to compile at Java1.5
+  and the diff-match-patch source seems to still work fine!
+  -->
+  
 </project>
