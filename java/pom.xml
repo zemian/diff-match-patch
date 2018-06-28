@@ -6,7 +6,13 @@
 
   <groupId>zemian</groupId>
   <artifactId>diff-match-patch</artifactId>
-  <version>1.0-SNAPSHOT</version>
+
+  <!-- 
+  The original diff-match-patch project did not version
+  their code, and this is the latest master commit hash id 
+  when we convert into Maven.  
+  -->
+  <version>858b381</version>
 
   <!-- 
   Default Maven compiler plugin is set to compile at Java1.5
